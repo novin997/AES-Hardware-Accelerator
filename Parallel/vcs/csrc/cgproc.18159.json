@@ -1,0 +1,45 @@
+{
+    "CompUnits": {
+        "amcQw_u0_obj": {
+            "mod": "...MASTER...",
+            "archive": "archive.9/_18159_archive_1.a",
+            "out": "amcQw_u0_obj.o",
+            "bytes": 7381,
+            "mode": 4
+        },
+        "smeNF_u0_obj": {
+            "mod": "AESCore",
+            "archive": "archive.9/_18159_archive_1.a",
+            "out": "smeNF_u0_obj.o",
+            "bytes": 83659,
+            "mode": 4
+        }
+    },
+    "Modules": {
+        "AESCore": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "matrix_mult": {},
+        "...MASTER...": {},
+        "std": {},
+        "aes_sbox": {},
+        "tb_aes": {}
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.9/_18159_archive_1.a",
+            "objects": [
+                [
+                    "amcQw_u0_obj.o",
+                    7381
+                ],
+                [
+                    "smeNF_u0_obj.o",
+                    83659
+                ]
+            ],
+            "size": 91040
+        }
+    ]
+}

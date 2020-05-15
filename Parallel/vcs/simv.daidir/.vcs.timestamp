@@ -1,0 +1,131 @@
+0 
+46
++cli+4
++itf+/app11/synopsys/vcs_vJ-2014.12/amd64/lib/vcsdp.tab
++lint=all
++memcbk
++memcbk
++vcsd
++vpi
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/app11/synopsys/vcs_vJ-2014.12/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags=
+-Mobjects= /app11/synopsys/vcs_vJ-2014.12/amd64/lib/libvirsim.so /app11/synopsys/vcs_vJ-2014.12/amd64/lib/liberrorinf.so /app11/synopsys/vcs_vJ-2014.12/amd64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/app11/synopsys/vcs_vJ-2014.12/amd64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl -lm
+-Mvcsaceobjs=
+-Xpiyushb1=0x80
+-debug=4
+-debug_access+all+dmptf+bc
+-debug_access+class+driver+dmptf+bc
+-debug_region=cell
+-debug_region=cell
+-full64
+-gen_obj
+-line
+-picarchive
+-sverilog
+-timescale=1ns/10ps
+../src/AESCore.v
+../src/AES_top.v
+../src/AEScntx.v
+../src/AddRndKey_top.v
+../src/KeySchedule_top.v
+../src/MixCol_top.v
+../src/aes_sbox.v
+../src/matrix_mult.v
+../src/shiftRows_top.v
+../src/subBytes_top.v
+../src/tb_aes.sv
+/app11/synopsys/vcs_vJ-2014.12/amd64/bin/vcs1
+62
+sysc_uni_pwd=/class4/ug19/a168476m/ee4415_part2/part2/vcs
+VMR_MODE_FLAG=64
+VENDOR=unknown
+VCS_MODE_FLAG=64
+VCS_HOME=/app11/synopsys/vcs_vJ-2014.12
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=amd64
+UNAME=/bin/uname
+TOOL_HOME=/app11/synopsys/vcs_vJ-2014.12/amd64
+STROOT=/app11/synopsys/tcad_sentaurus_vJ-2014.09-SP1
+SSH_TTY=/dev/pts/0
+SSH_CONNECTION=172.21.128.38 64305 137.132.170.118 22
+SSH_CLIENT=172.21.128.38 64305 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SAED_MC_32_28_PDK=/app11/saed_32.28/saed_mc/etc/techs/SAED_PDK_32
+REMOTEHOST=172.21.128.38
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+QRC_HOME=/app11/cadence/EXT15-20-000
+PERL5LIB=/app11/saed_32.28/saed_mc/lib
+OVA_UUM=0
+OSTYPE=linux
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+MMSIMHOME=/app11/cadence/MMSIM15-10-345
+MGLS_LICENSE_FILE=17170@lxapp3.cadcam.nus.edu.sg
+MGC_HOME=/app11/mentor/Calibre_2012.4_25.21/ixl_cal_2012.4_25.21
+MFLAGS=
+MC_HOME=/app11/saed_32.28/saed_mc
+MAKELEVEL=1
+MAKEFLAGS=
+LOADEDMODULES=
+LIBRARY_PATH=/app11/intel/Compiler/11.1/075/lib/intel64
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+INTEL_LICENSE_FILE=28518@lxapp2.cadcam.nus.edu.sg
+HPEESOF_DIR=/app11/ads/ads2014_01
+HOSTTYPE=x86_64-linux
+G_BROKEN_FILENAMES=1
+GROUP=saed
+GDM_LANG=en_US.UTF-8
+CVS_RSH=ssh
+CIC_INST_DIR=/app11/cadence/IC617-500-1
+CICHOME=/app11/cadence/IC617-500-1
+CDS_Netlisting_Mode=Analog
+CDS_LIC_FILE=32800@lxapp3.cadcam.nus.edu.sg
+CDS_INST_DIR=/app11/cadence/IC617-500-1
+CDS_AUTO_64BIT=ALL
+CDSROOT=/app11/cadence/IC617-500-1
+CDSHOME=/app11/cadence/IC617-500-1
+CDSDIR=/app11/cadence/IC617-500-1
+CDS=/app11/cadence
+ASSURAHOME=/app11/cadence/ASSURA415-001-617
+ANSOFTD_LICENSE_FILE=27200@lxapp3.cadcam.nus.edu.sg
+ADS_LICENSE_FILE=17020@lxapp3.cadcam.nus.edu.sg
+0
+12
+1583985929 ../src/tb_aes.sv
+1586853080 ../src/AES_top.v
+1586853046 ../src/AEScntx.v
+1586862341 ../src/AESCore.v
+1586852739 ../src/KeySchedule_top.v
+1586853086 ../src/AddRndKey_top.v
+1586852733 ../src/MixCol_top.v
+1582295560 ../src/matrix_mult.v
+1586852728 ../src/shiftRows_top.v
+1586852724 ../src/subBytes_top.v
+1582295561 ../src/aes_sbox.v
+1416630894 /app11/synopsys/vcs_vJ-2014.12/amd64/lib/vcsdp.tab
+4
+0 
+1416631535 /app11/synopsys/vcs_vJ-2014.12/amd64/lib/libvirsim.so
+1416631077 /app11/synopsys/vcs_vJ-2014.12/amd64/lib/liberrorinf.so
+1416631067 /app11/synopsys/vcs_vJ-2014.12/amd64/lib/libsnpsmalloc.so
+1586862369 simv.daidir

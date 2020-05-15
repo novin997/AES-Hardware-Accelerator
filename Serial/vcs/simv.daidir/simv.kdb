@@ -1,0 +1,8 @@
+rc file Version 1.0
+
+[Design]
+COMPILE_PATH=/class4/ug19/a168476m/ee4415_part2/part1/vcs
+SystemC=FALSE
+UUM=FALSE
+KDB=FALSE
+TOP=tb_aes 

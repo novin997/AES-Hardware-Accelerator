@@ -1,0 +1,119 @@
+{
+    "CompileStrategy": "fullobj",
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "aes_sbox": {
+            "JNxBW_u0_obj": {
+                "bytes": 70240,
+                "mod": "aes_sbox",
+                "mode": 4,
+                "archive": "archive.8/_prev_archive_1.a",
+                "out": "JNxBW_u0_obj.o"
+            }
+        },
+        "AESCore": {
+            "smeNF_u0_obj": {
+                "bytes": 84347,
+                "mod": "AESCore",
+                "mode": 4,
+                "archive": "archive.8/_5898_archive_1.a",
+                "out": "smeNF_u0_obj.o"
+            }
+        },
+        "matrix_mult": {
+            "Jn70n_u0_obj": {
+                "bytes": 21039,
+                "mod": "matrix_mult",
+                "mode": 4,
+                "archive": "archive.8/_prev_archive_1.a",
+                "out": "Jn70n_u0_obj.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_u0_obj": {
+                "bytes": 7381,
+                "mod": "...MASTER...",
+                "out": "amcQw_u0_obj.o",
+                "mode": 4,
+                "archive": "archive.8/_5898_archive_1.a"
+            }
+        },
+        "std": {
+            "reYIK_u0_obj": {
+                "bytes": 35864,
+                "mod": "std",
+                "mode": 4,
+                "archive": "archive.8/_prev_archive_1.a",
+                "out": "reYIK_u0_obj.o"
+            }
+        },
+        "tb_aes": {
+            "Ekjwg_u0_obj": {
+                "bytes": 142779,
+                "mod": "tb_aes",
+                "mode": 4,
+                "archive": "archive.8/_5898_archive_1.a",
+                "out": "Ekjwg_u0_obj.o"
+            }
+        }
+    },
+    "NameTable": {
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "aes_sbox": [
+            "aes_sbox",
+            "JNxBW",
+            "module"
+        ],
+        "AESCore": [
+            "AESCore",
+            "smeNF",
+            "module"
+        ],
+        "matrix_mult": [
+            "matrix_mult",
+            "Jn70n",
+            "module"
+        ],
+        "tb_aes": [
+            "tb_aes",
+            "Ekjwg",
+            "module"
+        ]
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 92892
+    },
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "AESCore",
+        "tb_aes"
+    ],
+    "CompileProcesses": [
+        "cgproc.5898.json"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "Misc": {
+        "csrc": "csrc",
+        "cwd": "/class4/ug19/a168476m/ee4415_part2/part2/vcs",
+        "csrc_abs": "/class4/ug19/a168476m/ee4415_part2/part2/vcs/csrc",
+        "default_output_dir": "csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/class4/ug19/a168476m/ee4415_part2/part2/vcs/simv.daidir",
+        "archive_dir": "archive.8"
+    },
+    "CompileStatus": "Successful"
+}

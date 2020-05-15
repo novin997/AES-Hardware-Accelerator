@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/app11/synopsys/vcs_vJ-2014.12/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/app11/synopsys/vcs_vJ-2014.12/amd64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/app11/synopsys/vcs_vJ-2014.12/amd64/lib:/app11/synopsys/vcs_vJ-2014.12/amd64/lib/pylib27
+export LD_LIBRARY_PATH
+/app11/synopsys/vcs_vJ-2014.12/amd64/bin/vcsfind_create_index.exe  -z  simv.daidir/debug_dump/fsearch/idents_y07EqN.xml.gz  -o simv.daidir/debug_dump/fsearch/fsearch.db_tmp
+\mv simv.daidir/debug_dump/fsearch/fsearch.db_tmp simv.daidir/debug_dump/fsearch/fsearch.db

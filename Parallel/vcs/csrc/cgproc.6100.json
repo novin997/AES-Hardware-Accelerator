@@ -1,0 +1,31 @@
+{
+    "Modules": {
+        "std": {},
+        "...MASTER...": {},
+        "aes_sbox": {},
+        "matrix_mult": {},
+        "AESCore": {},
+        "tb_aes": {}
+    },
+    "CompUnits": {
+        "amcQw_u0_obj": {
+            "out": "amcQw_u0_obj.o",
+            "mod": "...MASTER...",
+            "bytes": 7381,
+            "mode": 4,
+            "archive": "archive.7/_6100_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "objects": [
+                [
+                    "amcQw_u0_obj.o",
+                    7381
+                ]
+            ],
+            "archive": "archive.7/_6100_archive_1.a",
+            "size": 7381
+        }
+    ]
+}

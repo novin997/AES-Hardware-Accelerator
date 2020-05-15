@@ -1,0 +1,27 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module"
+    ],
+    "aes_sbox": [
+        "aes_sbox",
+        "JNxBW",
+        "module"
+    ],
+    "matrix_mult": [
+        "matrix_mult",
+        "Jn70n",
+        "module"
+    ],
+    "tb_aes": [
+        "tb_aes",
+        "Ekjwg",
+        "module"
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module"
+    ]
+}

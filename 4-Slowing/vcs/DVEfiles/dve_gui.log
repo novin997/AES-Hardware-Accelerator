@@ -1,0 +1,34 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version J-2014.12_Full64; Runtime version J-2014.12_Full64;  Apr 14 21:59 2020
+VCD+ Writer J-2014.12_Full64 Copyright (c) 1991-2014 by Synopsys Inc.
+The file '/class4/ug19/a168476m/ee4415_part2/part3/vcs/inter.vpd' was opened successfully.
+
+Warning-[STASKW_RMIEAFL] Illegal entry
+../src/tb_aes.sv, 43
+  Illegal entry found at file ../../ref/plain_text.txt line 1004 while 
+  executing $readmem.
+  Please ensure that the file has proper entries.
+
+
+Warning-[STASKW_RMIEAFL] Illegal entry
+../src/tb_aes.sv, 44
+  Illegal entry found at file ../../ref/cipher_key.txt line 1004 while 
+  executing $readmem.
+  Please ensure that the file has proper entries.
+
+
+Warning-[STASKW_RMIEAFL] Illegal entry
+../src/tb_aes.sv, 45
+  Illegal entry found at file ../../ref/cipher_text.txt line 1001 while 
+  executing $readmem.
+  Please ensure that the file has proper entries.
+
+Congratulations, your code passed all the tests for N-slowing...
+$finish called from file "../src/tb_aes.sv", line 143.
+$finish at simulation time             12757000
+Simulation complete, time is 127570000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 127570000 ps
+CPU Time:      0.350 seconds;       Data structure size:   0.1Mb
+Tue Apr 14 21:59:28 2020

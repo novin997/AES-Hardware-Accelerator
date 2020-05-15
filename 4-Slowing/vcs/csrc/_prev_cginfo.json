@@ -1,0 +1,104 @@
+{
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "...MASTER...": {
+            "amcQw_u0_obj": {
+                "bytes": 7381,
+                "mod": "...MASTER...",
+                "archive": "archive.147/_21755_archive_1.a",
+                "out": "amcQw_u0_obj.o",
+                "mode": 4
+            }
+        },
+        "aes_sbox": {
+            "JNxBW_u0_obj": {
+                "bytes": 70240,
+                "mod": "aes_sbox",
+                "mode": 4,
+                "out": "JNxBW_u0_obj.o",
+                "archive": "archive.147/_prev_archive_1.a"
+            }
+        },
+        "matrix_mult": {
+            "Jn70n_u0_obj": {
+                "bytes": 21039,
+                "mod": "matrix_mult",
+                "mode": 4,
+                "out": "Jn70n_u0_obj.o",
+                "archive": "archive.147/_prev_archive_1.a"
+            }
+        },
+        "std": {
+            "reYIK_u0_obj": {
+                "bytes": 35864,
+                "mod": "std",
+                "mode": 4,
+                "out": "reYIK_u0_obj.o",
+                "archive": "archive.147/_prev_archive_1.a"
+            }
+        },
+        "tb_aes": {
+            "Ekjwg_u0_obj": {
+                "bytes": 146336,
+                "mod": "tb_aes",
+                "archive": "archive.147/_21755_archive_1.a",
+                "out": "Ekjwg_u0_obj.o",
+                "mode": 4
+            }
+        }
+    },
+    "CompileProcesses": [
+        "cgproc.21755.json"
+    ],
+    "PEModules": [],
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "aes_sbox": [
+            "aes_sbox",
+            "JNxBW",
+            "module"
+        ],
+        "matrix_mult": [
+            "matrix_mult",
+            "Jn70n",
+            "module"
+        ],
+        "tb_aes": [
+            "tb_aes",
+            "Ekjwg",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 92458
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "tb_aes"
+    ],
+    "CurCompileUdps": {},
+    "Misc": {
+        "cwd": "/class4/ug19/a168476m/ee4415_part2/part3/vcs",
+        "daidir_abs": "/class4/ug19/a168476m/ee4415_part2/part3/vcs/simv.daidir",
+        "csrc_abs": "/class4/ug19/a168476m/ee4415_part2/part3/vcs/csrc",
+        "csrc": "csrc",
+        "daidir": "simv.daidir",
+        "archive_dir": "archive.147",
+        "default_output_dir": "csrc"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileStatus": "Successful"
+}
